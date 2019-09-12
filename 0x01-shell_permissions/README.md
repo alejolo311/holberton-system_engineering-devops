@@ -1,1 +1,1 @@
-This Repo contains commands about permissions in shell
+This Repo contains commands about permissions in shell.
