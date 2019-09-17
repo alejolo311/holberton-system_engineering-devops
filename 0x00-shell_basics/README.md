@@ -10,9 +10,9 @@ This project contains some of the simplest and most important commands for the b
  - What are wildcards and how do they work.
  - understand the commands that allow the basic use of a UNIX based system.
 # Requirements
->1 - All your scripts should be exactly two lines long ($ wc -l file should print 2).
->2 - You are not allowed to use backticks, &&, || or ;
->3 - All your scripts must be executable.
+ - All your scripts should be exactly two lines long ($ wc -l file should print 2).
+ - You are not allowed to use backticks, &&, || or ;
+ - All your scripts must be executable.
 # Tasks
 **0-current_working_directory**
 Write a script that prints the absolute path name of the current working directory.
