@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# this is a very cool comment to this code
 
 for filename in *;
 do

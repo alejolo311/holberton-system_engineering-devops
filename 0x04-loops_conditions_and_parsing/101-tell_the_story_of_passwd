@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+# this is a very cool comment to this code
+
 IFS=:
 while read -r user pass userid groupid useridinfo home cmd
 do
