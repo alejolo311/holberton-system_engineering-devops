@@ -15,7 +15,7 @@ start() {
         echo "manage_my_process started"
 }
 stop() {
-    kill "$pr"
+        kill "$pr"
 	rm /var/run/my_process.pid
         echo "manage_my_process stopped"
 }
@@ -32,4 +32,6 @@ case "$1" in
         ;;
   *)
         echo "Usage: manage_my_process {start|stop|restart}"
+        exit 1
 esac
+exit 0
