@@ -7,6 +7,7 @@ sudo bash -c "echo $$ > /var/run/holbertonscript.pid"
 function sigterm {
     echo "I hate the kill command"
     sudo rm /var/run/holbertonscript.pid
+}
 function sigquit {
     sudo rm /var/run/holbertonscript.pid
 }
