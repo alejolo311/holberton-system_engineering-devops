@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # this is a very cool comment jeje
 
-kill pgrep -f 4-to_infinity_and_be
+kill "$pgrep -f 4-to_infinity_and_be"
