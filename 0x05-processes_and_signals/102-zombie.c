@@ -3,10 +3,10 @@
 #include <sys/types.h>
 
 /**
- * create_zombie - zombie process
+ * infinite_while - zombie process
  * Return: 0 in some cases jajaja
  */
-int create_zombie(void)
+int infinite_while(void)
 {
 	while (1)
 	{
@@ -32,9 +32,8 @@ int main(void)
 			printf("Zombie process created, PID: %i\n", zombie);
 		} else
 			exit(0);
-        i++;
+		i++;
 	}
-	create_zombie();
-
+	infinite_while();
 	return (0);
 }
