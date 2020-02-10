@@ -1,1 +1,11 @@
 #!/usr/bin/env bash
+# this is a very cool comment jeje
+
+trap "echo I am invincible!!!" SIGTERM
+i=1
+
+while [ $i -lt 2 ]
+do
+	echo "To infinity and beyond"
+	sleep 2
+done
