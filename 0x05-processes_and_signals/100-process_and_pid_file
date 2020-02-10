@@ -1,1 +1,25 @@
 #!/usr/bin/env bash
+# this is a very cool comment jeje
+
+sudo touch /var/run/holbertonscript.pid
+sudo bash -c "echo $$ > /var/run/holbertonscript.pid"
+
+function sigterm {
+    echo "I hate the kill command"
+    sudo rm /var/run/holbertonscript.pid
+function sigquit {
+    sudo rm /var/run/holbertonscript.pid
+}
+function sigint {
+    echo "Y U no love me?!"
+}
+
+trap sigint SIGINT
+trap sigquit SIGQUIT
+trap sigterm SIGTERM
+
+i=1
+while [ $i -lt 2 ]
+do
+	echo "To infinity and beyond indefinitely"
+done
