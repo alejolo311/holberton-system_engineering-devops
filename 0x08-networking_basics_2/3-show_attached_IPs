@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#probably this comment is about how this script works
 ifconfig | grep "inet " | awk -F'[: ]+' '{ print $4 }'
