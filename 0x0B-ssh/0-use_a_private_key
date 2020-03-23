@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 # connection to a server using the "holberton" ssh key
 
-ssh -i ~/.ssh/holberton ubuntu@34.73.136.156
+ssh -i ~/.ssh/holberton ubuntu@34.74.140.171
