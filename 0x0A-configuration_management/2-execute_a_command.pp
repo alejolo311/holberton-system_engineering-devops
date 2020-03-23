@@ -1,4 +1,4 @@
- # kill a process killmenow
+# kill a process killmenow
 
 exec { 'killmenow':
   path    => '/usr/bin/',
