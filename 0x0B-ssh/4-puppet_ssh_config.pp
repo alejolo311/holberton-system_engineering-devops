@@ -1,5 +1,4 @@
- #!/usr/bin/env bash
- # changing the ssh configurations
+# changing the ssh configurations
 
 file_line { 'Turn off passwd auth':
     ensure => 'present',
