@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Runs the whoami with parameter
+sudo -u "$1" whoami
